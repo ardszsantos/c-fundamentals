@@ -8,11 +8,11 @@ int main() {
     printf("***********************************\n");
 
     int numerosecreto = 42;
-
+    int tentativas = 5;
     int chute;
 
-    for(int i = 1; i <= 3; 1) {
-        printf("Tentativa %d\n", i);
+    for(int i = 1; i <= tentativas; 1) {
+        printf("Tentativa %d de %d\n", i, tentativas);
         printf("Qual é o seu chute? ");
         scanf("%d", &chute);
         printf("Seu chute foi %d \n", chute);
