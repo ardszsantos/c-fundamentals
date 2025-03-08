@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 
-int main() {
-    int x, y;
+int main() {   
 
-    printf("Escolha o valor da variavel X: \n");
-    scanf("%d", &x);
+    int resultado = 0;
 
-    printf("Agora escolha o valor da variavel Y: \n");
-    scanf("%d", &y);
+    for(int i = 1; i <= 100; i++) {
+        resultado = resultado + i;
+    }
 
-    int result = x * y;
-
-    printf("O resultado da multiplicação é: %d\n", result);
+    printf("%d \n", resultado);
 
     return 0;
 }
