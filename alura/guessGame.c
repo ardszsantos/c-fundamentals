@@ -11,6 +11,7 @@ int main() {
     
     int chute;
 
+    
 
     int tentativas = 1;
 
@@ -48,8 +49,8 @@ int main() {
     }
 
     printf("Fim de jogo!\n");
-    printf("Você acertou em %d tentativas!", tentativas);
-    printf("Pontuação: %f \n", pontos);
+    printf("Você acertou em %d tentativas! \n", tentativas);
+    printf("Pontuação: %.1f \n", pontos);
     
 
 
