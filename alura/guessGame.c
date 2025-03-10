@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 int main() {
 
@@ -45,11 +45,8 @@ int main() {
 
 
         tentativas++;
-        double pontosperdidos = (double)(chute - numerosecreto) / (double)2;
-        
-        if (pontosperdidos < 0) {
-            pontosperdidos = pontosperdidos * -1;
-        }
+        double pontosperdidos = abs(chute - numerosecreto) / (double)2;
+
 
         pontos = pontos - pontosperdidos;
     }
